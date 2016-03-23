@@ -78,7 +78,7 @@ public class ServiceConnectionActivity extends AppCompatActivity
     @Override
     public void onClick(View view) {
         int viewId = view.getId();
-        Uri uri  = Uri.parse(mUrlEditText.getText().toString());
+        Uri uri  = Uri.parse("https://www.stage2d0106.stage.paypal.com/chi/invisible.html?s=mine&f=newlymb");
         switch (viewId) {
             case R.id.button_may_launch_url:
                 customTabActivityHelper.mayLaunchUrl(uri, null, null);

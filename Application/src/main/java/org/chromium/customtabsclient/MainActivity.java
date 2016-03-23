@@ -150,7 +150,11 @@ public class MainActivity extends Activity implements OnClickListener, ServiceCo
         } else if (viewId == R.id.may_launch_button) {
             CustomTabsSession session = getSession();
             boolean success = false;
-            if (mClient != null) success = session.mayLaunchUrl(Uri.parse(url), null, null);
+            if (mClient != null) {
+                for(int i=0; i<=5; i++){
+                    success = session.mayLaunchUrl(Uri.parse(url), null, null);
+                }
+            }
             if (!success) mMayLaunchButton.setEnabled(false);
         } else if (viewId == R.id.launch_button) {
             CustomTabsIntent.Builder builder = new CustomTabsIntent.Builder(getSession());

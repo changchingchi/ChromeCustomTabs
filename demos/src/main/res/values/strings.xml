@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright 2015 Google Inc. All Rights Reserved.
+<?xml version="1.0" encoding="utf-8"?><!-- Copyright 2015 Google Inc. All Rights Reserved.
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -23,7 +22,7 @@
     <string name="notification_text">Open your web content on Chrome Custom Tabs</string>
     <string name="notification_sample_url">https://developer.chrome.com/multidevice/android/customtabs</string>
     <string name="label_url">URL:</string>
-    <string name="default_test_url">http://developer.android.com</string>
+    <string name="default_test_url">https://www.paypal.com/login</string>
     <string name="back_to_app">Back to your application!</string>
     <string name="label_start_custom_tab">Open Custom Tab</string>
     <string name="label_add_menus">Add Menus</string>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/chchi/Documents/PayPal/Android/custom-tabs-client/customtabs/src/main/assets"/><source path="/Users/chchi/Documents/PayPal/Android/custom-tabs-client/customtabs/assets"/></dataSet><dataSet config="release"><source path="/Users/chchi/Documents/PayPal/Android/custom-tabs-client/customtabs/src/release/assets"/></dataSet></merger>
